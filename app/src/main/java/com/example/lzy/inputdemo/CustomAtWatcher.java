@@ -253,6 +253,15 @@ public abstract class CustomAtWatcher implements TextWatcher {
 
 
     }
+    
+    public void reset() {
+        isEdit = false;
+        location = 0;
+        list.clear();
+        lastMsg = "";
+        hasCallMemberPage = false;
+        bringBackNickName = "";
+    }
 
 
 }
